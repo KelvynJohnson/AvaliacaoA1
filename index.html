@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+</head>
+<body>
+       <!--pagina 1--> 
+    <section>
+        
+        <div class="bemvindo">
+            <h1 class="bemvindo_conteudo_titulo">Bem vindo a Avaliação!</h1>
+            <p class="bemvindo_conteudo_texto">Essa é uma pagina de validação</p>
+        </div>
+        <form>
+            <div class="card__validacao">
+                <p class="numero_um">Digite um número de 9 dígitos:</p>
+                <input type="text" id="primeiroDigito" placeholder="Digite o primeiro número" class="check_numero_um">
+                <p class="password">Digite um número de 2 dígitos:</p>
+                <input type="text" id="segundoDigito" placeholder="Digite o segundo número" class="check_numero_dois">           
+                <button onclick="validarEntrada()" class="btn-validar-numero">Validar número</button>
+                <p id="resto" class="resto"></p>
+                
+            </div>    
+        </form>
+       
+    </section>
+   
+   
+
+</body>
+</html>
